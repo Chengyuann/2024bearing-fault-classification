@@ -14,5 +14,5 @@
 采用准确率（Accuracy）对模型预测精度进行评价，具体公式如下 ：
 
 $$
-\begin{aligned}\mathrm{Acc}&=\frac{\sum_{i=1}^N\delta_{\hat{y}_i,\hat{y}_i}}{N}\\\delta_{\hat{y}_i,\hat{y}_i}&=\begin{cases}1(\hat{y}_i=y_i)\\0(\hat{y}_i\neq y_i)\end{cases}\end{aligned}
+\mathrm{Acc}&=\frac{\sum_{i=1}^N\delta_{\hat{y}_i,\hat{y}_i}}{N}\\\delta_{\hat{y}_i,\hat{y}_i}&=\begin{cases}1(\hat{y}_i=y_i)\\0(\hat{y}_i\neq y_i)\end{cases}
 $$
